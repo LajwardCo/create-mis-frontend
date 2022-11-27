@@ -1,5 +1,5 @@
 
 export const getJWT = () => {
-    return localStorage.getItem('jwt') ?? 'DEV_MODE';
+    return localStorage.getItem('jwt');
 }
 
