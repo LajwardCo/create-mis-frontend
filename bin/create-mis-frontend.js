@@ -47,7 +47,7 @@ const index_1 = require("../src/index");
 Next steps:
 
 ▶️ cd ${answers.name}
-▶️ npm install
+▶️ npm ci
 ▶️ npm start
 `);
     });
