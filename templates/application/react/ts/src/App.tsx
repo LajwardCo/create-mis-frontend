@@ -21,23 +21,19 @@ function Page2() {
   return <h1>Page2</h1>;
 }
 
+function passRoutesToBase() {
+    const routes = [
+        {title: "Home", route: ""},
+        {title: "Page1", route: "page1"},
+        {title: "Page2", route: "page2"}
+    ];
+    localStorage.setItem("headers.{{NAME}}", JSON.stringify(routes));
+}
 
 function App() {
+    passRoutesToBase();
     return (
-        <div>
-        <div>
-            <ul className="flex bg-blue-800 text-white justify-between">
-                <li>
-                    <Link to="">Home</Link>
-                </li>
-                <li>
-                    <Link to="page1">Page1</Link>
-                </li>
-                <li>
-                    <Link to="page2">Page2</Link>
-                </li>
-            </ul>
-        </div>
+      <div>
         <Routes>
             <Route path="" element={<Home />} />
             <Route path="page1" element={<Page1 />} />

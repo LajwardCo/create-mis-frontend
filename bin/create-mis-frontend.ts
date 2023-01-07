@@ -26,7 +26,7 @@ import { Project } from '../src/types'
         type: 'list',
         message: 'CSS:',
         name: 'css',
-        choices: ['CSS', 'Tailwind'],
+        choices: ['Tailwind'],
         default: 'CSS',
       },
     ])
