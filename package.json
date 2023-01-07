@@ -1,6 +1,6 @@
 {
   "name": "create-mis-frontend",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "description": "Create starter frontend project for Lajward MIS",
   "main": "src/index.js",
   "bin": "bin/create-mis-frontend.js",

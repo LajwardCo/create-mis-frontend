@@ -41,7 +41,7 @@ import { Project } from '../src/types'
 Next steps:
 
 ▶️ cd ${answers.name}
-▶️ npm install
+▶️ npm ci
 ▶️ npm start
 `)
 })()
