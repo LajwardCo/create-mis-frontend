@@ -5,7 +5,7 @@ const uuid = require('uuid');
 const axios = require('axios');
 const pack = require('./package.json');
 
-const MIS_BASE_URL = 'https://base.mis-soft.dev/developer/module/deploy_frontend';
+const MIS_BASE_URL = 'http://lajward-mis.dev:3000/developer/module/deploy_frontend';
 
 const entry = async () => {
     const { buildDir } = await prompts({
